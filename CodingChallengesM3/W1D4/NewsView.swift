@@ -18,6 +18,24 @@ struct NewsView: View {
                 .background(.black)
             Spacer()
             ScrollView {
+                VStack {
+                    Text(
+                        "Verpasse nie wieder wichtige Nachrichten mit unserem Newsletter!"
+                    )
+                    .multilineTextAlignment(.center)
+                    Button("Abonnieren") {
+                        print("Newsletter abonniert!")
+                    }
+                    .foregroundStyle(.white)
+                    .bold()
+                    .padding()
+                    .background(RoundedRectangle(cornerRadius: 50))
+                }
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 12)
+                    .fill(.yellow))
+                Divider()
+                Spacer()
                 Text("Lokaler Bäcker gewinnt Preis für bestes Croissant")
                     .font(.headline)
                     .underline()
@@ -34,9 +52,16 @@ struct NewsView: View {
                 }
                 .foregroundStyle(.black)
                 .padding()
-                .background(RoundedRectangle(cornerRadius: 12)
-                    .fill(.gray)
-                    .shadow(color: Color.black.opacity(0.3), radius: 6, x: 0, y: 4))
+                .background(
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(.gray)
+                        .shadow(
+                            color: Color.black.opacity(0.3),
+                            radius: 6,
+                            x: 0,
+                            y: 4
+                        )
+                )
                 Spacer()
                 Divider()
                 Spacer()
@@ -56,9 +81,16 @@ struct NewsView: View {
                 }
                 .foregroundStyle(.black)
                 .padding()
-                .background(RoundedRectangle(cornerRadius: 12)
-                    .fill(.gray)
-                    .shadow(color: Color.black.opacity(0.3), radius: 6, x: 0, y: 4))
+                .background(
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(.gray)
+                        .shadow(
+                            color: Color.black.opacity(0.3),
+                            radius: 6,
+                            x: 0,
+                            y: 4
+                        )
+                )
                 Spacer()
                 Divider()
                 Spacer()
@@ -78,9 +110,16 @@ struct NewsView: View {
                 }
                 .foregroundStyle(.black)
                 .padding()
-                .background(RoundedRectangle(cornerRadius: 12)
-                    .fill(.gray)
-                    .shadow(color: Color.black.opacity(0.3), radius: 6, x: 0, y: 4))
+                .background(
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(.gray)
+                        .shadow(
+                            color: Color.black.opacity(0.3),
+                            radius: 6,
+                            x: 0,
+                            y: 4
+                        )
+                )
                 Spacer()
             }
             Spacer()
