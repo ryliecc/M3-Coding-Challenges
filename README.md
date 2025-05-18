@@ -1,56 +1,39 @@
 
-# 📱 Lebenslauf App – Übungsprojekt (Modul 3)  
-### Resume App – Practice Project (Module 3)
+# 💻 Coding Challenges – Sammlung täglicher Übungsaufgaben  
+### Coding Challenges – Daily Practice Collection
 
-Dieses Projekt entstand im Rahmen meines App-Development-Kurses (Modul 3) und diente ausschließlich zur Übung. Ziel war es, eine einfache **Lebenslauf-App mit SwiftUI** umzusetzen, um die in dieser Woche gelernten Konzepte zu vertiefen. Eine Weiterentwicklung dieser App ist **nicht geplant**.
+In diesem Projekt sammele ich alle **täglichen Coding Challenges**, die wir im Rahmen unseres App-Development-Kurses während der Vorlesungen bearbeiten.  
+Jede Challenge ist eine kleine Übungsaufgabe, die ein bestimmtes Konzept oder eine Technik vertiefen soll.
 
-This project was created as part of my App Development course (Module 3) and is intended **purely for practice**. The goal was to build a simple **resume app using SwiftUI** to reinforce what we learned this week. **No further development is planned**.
+This project contains a collection of **daily coding challenges** that we work on during lectures in our app development course.  
+Each challenge is a short exercise designed to reinforce a specific concept or technique.
 
 ---
 
-## 🛠️ Technologien & Tools | Technologies & Tools
+## 📚 Ziel | Purpose
+
+🔹 Die Aufgaben dienen ausschließlich dem **Training und der Festigung des Gelernten**.  
+🔹 Jede Challenge ist in einer separaten Datei organisiert und thematisch eingeordnet.  
+🔹 Dieses Projekt wird **laufend erweitert**, solange der Kurs läuft.
+
+🔹 The challenges are meant for **practicing and reinforcing learned material**.  
+🔹 Each challenge is organized in a separate file and grouped by topic.  
+🔹 This project will be **continuously updated** throughout the course.
+
+---
+
+## 🛠️ Technologien | Technologies
 
 - **Sprache / Language:** Swift  
-- **UI-Framework:** SwiftUI  
-- **Designvorlage / Design mockup:** Selbst erstellt mit / self-designed in [Figma](https://www.figma.com)  
-- **IDE:** Xcode
-
----
-
-## 📚 Gelernt & angewendet | Learned & Applied
-
-Diese Woche haben wir grundlegende SwiftUI-Techniken kennengelernt:
-
-This week we learned the basics of working with SwiftUI:
-
-- **Stacks (VStack, HStack, ZStack)** – zum Anordnen von UI-Elementen  
-  / to arrange UI elements on the screen  
-- **View Modifier** – zur Gestaltung von Text, Farben, Layout etc.  
-  / for customizing text, color, layout, and more  
-- **Shapes** – einfache Formen wie Kreise und Rechtecke  
-  / simple shapes like circles and rectangles  
-- **Custom Fonts** – eigene Schriftarten ins Projekt integrieren  
-  / importing and using custom fonts in the project
-
----
-
-## 🖼️ App Features
-
-- Übersichtlicher Lebenslauf mit Name, Foto, Kontakt, Ausbildung und Erfahrung  
-  / Clean CV layout with name, image, contact info, education, and work experience  
-- Farbliche Gestaltung und visuelle Trennung mit Icons und Formen  
-  / Use of colors and shapes to structure information visually  
-- Individuelle Schriftart für persönliches Design  
-  / Custom font for a personalized look  
-- Responsives Layout durch SwiftUI-Stapel  
-  / Responsive layout using SwiftUI stacks
+- **Entwicklungsumgebung / IDE:** Xcode  
+- **Frameworks:** Kein externes Framework – reine Swift-Konsolenprogramme
 
 ---
 
 ## ❗ Hinweis | Note
 
-🔹 **Dies ist ein reines Lern- und Übungsprojekt.** Es dient ausschließlich dem Zweck, das Gelernte praktisch umzusetzen.  
-🔹 **This is a pure learning and practice project.** It was created solely to apply new skills in a hands-on way.  
+Dieses Repository ist **kein vollständiges Projekt**, sondern eine **Sammlung kleiner Übungssnippets**.  
+Die Inhalte sind bewusst kompakt gehalten und konzentrieren sich auf einzelne Lernziele.
 
-➡️ **Es wird keine Weiterentwicklung oder Veröffentlichung geben.**  
-➡️ **No further development or publication is planned.**
+This repository is **not a complete app**, but a **collection of small practice snippets**.  
+Each file focuses on a specific learning objective and is intentionally kept short and simple.
