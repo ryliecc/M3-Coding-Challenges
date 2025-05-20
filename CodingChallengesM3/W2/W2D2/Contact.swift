@@ -11,6 +11,13 @@ struct Contact: Identifiable {
     var id: UUID = UUID()
     var name: String
     var phoneNumber: String
-    var age: Int
+    var age: Int?
     var isOnline: Bool
+    
+    init(name: String, phoneNumber: String, age: Int? = nil, isOnline: Bool) {
+        self.name = name
+        self.phoneNumber = phoneNumber
+        self.age = age
+        self.isOnline = isOnline
+    }
 }
